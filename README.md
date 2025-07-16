@@ -9,16 +9,6 @@ This project sets up a static website hosted on AWS S3 using Terraform, followin
 - Uploads static website content (like `index.html`) to the S3 bucket.
 - Outputs the S3 website endpoint for access.
 
-## 🧱 Project Structure
-├── main.tf
-├── variables.tf
-├── outputs.tf
-├── terraform.tfvars
-└── modules/
-└── s3_bucket/
-├── main.tf
-├── variables.tf
-└── outputs.tf
 ## 🔐 Credentials Handling
 
 **Important:**  
