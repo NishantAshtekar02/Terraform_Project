@@ -22,7 +22,7 @@ To run this project, configure your AWS credentials using one of the following m
   export AWS_ACCESS_KEY_ID="your-access-key"
   export AWS_SECRET_ACCESS_KEY="your-secret-key"
 
-🚀 Usage
+## 🚀 Usage
 Clone the repo
 
 Navigate into the project directory
@@ -33,10 +33,10 @@ Apply the configuration using terraform apply
 
 Terraform will output the S3 static website endpoint once deployed
 
-📂 Website Files
+## 📂 Website Files
 The website files (e.g., index.html) should be placed in a local directory that is referenced in the module for upload to the S3 bucket.
 
-✅ Notes
+## ✅ Notes
 This project is modular — code related to the S3 bucket creation is kept inside the modules/s3_bucket/ directory.
 
 Reusable and clean Terraform structure.
