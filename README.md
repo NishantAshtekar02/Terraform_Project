@@ -37,7 +37,7 @@ Terraform will output the S3 static website endpoint once deployed
 The website files (e.g., index.html) should be placed in a local directory that is referenced in the module for upload to the S3 bucket.
 
 ## ✅ Notes
-This project is modular — code related to the S3 bucket creation is kept inside the modules/s3_bucket/ directory.
+This project is modular — code related to the S3 bucket creation is kept inside the modules/Website/ directory.
 
 Reusable and clean Terraform structure.
 
